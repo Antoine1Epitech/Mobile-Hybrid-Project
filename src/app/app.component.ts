@@ -7,6 +7,7 @@ import firebase from 'firebase';
 import { ProfilPage } from '../pages/profil/profil';
 import { HomePage } from '../pages/home/home';
 import { CreditCardPage} from '../pages/credit-card/credit-card';
+import { IonicApp, IonicModule, Config } from 'ionic-angular';
 
 @Component({
   templateUrl: 'app.html'
@@ -17,7 +18,7 @@ export class MyApp {
   activePage: any;
   pages: Array<{title: string, component: any, icon: string}>;
 
-  constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
+  constructor(private config: Config, platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     this.pages = [
       {title: 'Home', component: HomePage, icon:'home'},
       {title: 'Profil', component: ProfilPage, icon:'person'},
@@ -48,7 +49,12 @@ export class MyApp {
         unsubscribe();
       }
     });
+    this.config.set("scrollPadding", false);
+    this.config.set("scrollAssist", false);
+    this.config.set("autoFocusAssist", true);
 
+    this.config.set("android", "scrollAssist", true );
+    this.config.set("android", "autoFocusAssist", "delay");
   }
 
   openPage(page) {

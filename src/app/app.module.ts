@@ -9,6 +9,7 @@ import { HomePage } from '../pages/home/home';
 import { AuthData } from '../providers/auth/auth';
 import { ProfilPage } from '../pages/profil/profil';
 import { CreditCardPage} from '../pages/credit-card/credit-card';
+import { Camera } from '@ionic-native/camera';
 //import { LoginPage} from '../pages/login/login'
 
 @NgModule({
@@ -33,6 +34,7 @@ import { CreditCardPage} from '../pages/credit-card/credit-card';
   ],
   providers: [
     StatusBar,
+    Camera,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     AuthData

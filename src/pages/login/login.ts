@@ -11,6 +11,7 @@ import { AuthData } from '../../providers/auth/auth';
 import { HomePage } from '../home/home';
 
 
+
 @IonicPage({
   name: 'LoginPage'
 })
