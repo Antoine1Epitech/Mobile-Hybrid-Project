@@ -1,3 +1,5 @@
+# Mobile-Hybrid-Project
+
 Voici une application qui vous permettra de sauvegarder vos carte de fidélité. 2 possibilités pour cela :
 
 1 - Scanner une carte, l'appareil photo s'ouvre et vous permet de scanner votre carte. Une fois le code lu un QRCode et généré et stocker.
@@ -12,16 +14,20 @@ Presence au cour : NON
 
 DOCUMENTATION UTILISATEUR 
 
-I - Conexion 
+I - Conexion
+
 Si vous avez deja un compte il vous suffira de remplir les informations et de se connecter 
 
 II - Création de compte 
+
 Si vous n'avez pas encore de compte, il suffit de cliquer sur "Create a new account" et de remplir les différents champ avant de valider 
 
-III - MOt de passe oublier 
+III - Mot de passe oublier 
+
 Si vous avez oublié votre mot de passe, il vous suffit de cliquer sur "I forgot my password" et de saisir votre adresse. // A vérifier
 
 IV - Accés a son profil 
+
 Si vous souhaiez voir les différentes informations de votre profil, il vous suffira de cliquer sur l'icon du menu en haut a gauche et de cliquer sur profil.
 Une fois sur la page menu vous avez la possbilité de modifier les informations uniquement en saisissant les nouvelles informations et en validant.
 Vous aurez aussi la possibilité de changer de mot de passe en cliquant le sur le bouton à cet actif. // A Faire
@@ -29,10 +35,12 @@ Vous aurez aussi la possibilité de changer de mot de passe en cliquant le sur l
 V - Ajout d'une carte de fidélité 
 
 VI - Consultation de vos cartes 
+
 Si vous souhaitez voir les différentes cartes rensigné rien de plus simple, cliquez sur l'icone menu et selectionné carte.
 Vous verrez ainsi la liste de vos différentes carte et en cliquant sur une de celle ci vous verez apparaitre votre carte de fidélité.
 
 VI - Deconnexion 
+
 Pour vous deconnectez rien de plus simple cliquez sur "Log Out " en haut à droite de l'application 
 
 DOCUMENTATION TECHNIQUE 
@@ -70,4 +78,3 @@ La base de donné regroupant les utilisateurs et informations utilisateurs
 Les images sont stocké sur firebase 
 
 
-# Mobile-Hybrid-Project
