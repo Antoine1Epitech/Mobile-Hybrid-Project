@@ -1,0 +1,43 @@
+Réaliser un projet en utilisant un framework de développement hybride et livrer un app fonctionnel. 
+
+Imposé  :
+Ionic 2 ,React possible 
+
+Contraintes : 
+Imaginer une application exploitant les possibilités offertes par l'exploitation d'api natives du téléphone :
+
+- contact et/ou
+- géolocalisation et/ou
+- push et/ou
+- status du réseau  et/ou
+- photo et/ou
+- code barre et/ou
+-  etc
+
+ ainsi que de quelques fonctionnalités backend :
+
+- analytiques et/ou
+- push et/ou
+- authent et/ou
+-  Stockage de data et/ou
+
+ Soit en utilisant fournisseur de type firebase soit avec une api custom.
+
+
+L’application sera testée dans des conditions dégradées (mauvais accès au réseau ou offline) merci de prévoir ces cas d’usage dans votre approche.
+
+Rendu de l’application : 
+La livraison des fait sous forme d’un dépôt GitHub en envoyant une invitation à : nicolas.laurio@southside-interactive.com avant le 4 Novembre 2017 (Inclus)
+
+Dans le dépôt :
+- Un apk prêt à l’usage
+- Un readme à la base du projet expliquant le projet et toutes les contraintes techniques de lui ci (Front, backend) et la composition du groupe, ainsi une information si vous avez oui ou non assisté au cours inhérent au module
+
+- Le code source du projet hybride client
+- Le code source du backend (Dans le cadre d’un backend from scratch)
+- Les accès au backend Firebase ou autre plateforme dans le cadre d’un backend full firebase ou autre
+- Les accès à Firebase ou à la plateforme analytique choisie (Pour tester le push et les analytiques)
+
+Tout ce que vous avez développé doit être explicable et testable, la documentation est importante car le test se fera sans votre présence.
+
+Un apk non installable donnera un projet nul, donc vérifiez vos livraisons en amont.
