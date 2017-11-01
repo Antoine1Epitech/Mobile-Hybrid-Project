@@ -1,0 +1,34 @@
+<ion-header>
+    <ion-navbar>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-title>Home</ion-title>
+      <ion-buttons end>
+      <button ion-button (click)='Disconnect()'>
+          <ion-icon name="exit"></ion-icon>
+            Sign out 
+      </button>
+    </ion-buttons>
+    </ion-navbar>
+  </ion-header>
+  
+  <ion-content padding class="myphoto" scroll="false">
+  <ion-card style="height: 48%" >
+      <ion-content>
+      <img src="../assets/barcode.png" id="imgPlacement"  style="align-items: center">
+      <ion-footer>
+          <button ion-button full color="primary">Scan your card </button>
+      </ion-footer>
+    </ion-content>
+
+  </ion-card>
+  <ion-card style="height: 48%">
+      <ion-content>
+      <img src="../assets/picture.png" id="imgPlacement"  style="align-items: center">
+     <ion-footer class="fondu">
+      <button ion-button full color="primary">Select from Library  </button>
+    </ion-footer>
+  </ion-content>
+  </ion-card>
+  </ion-content>

@@ -1,0 +1,39 @@
+<ion-header>
+    <ion-navbar>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-title>Profil</ion-title>
+    </ion-navbar>
+  </ion-header>
+  
+  <ion-content padding class="myphoto">
+    <ion-card>
+      <img src="../assets/man.png" id="imgPlacement"  style="align-items: center">
+      <h1 align="center"> {{myPerson.name}} {{myPerson.surname}} </h1>
+    </ion-card>
+    <ion-card >
+        <ion-item>
+            <ion-label stacked>Name</ion-label>
+             <ion-input [(ngModel)]="name" placeholder={{myPerson.name}}></ion-input>
+           </ion-item>
+       
+           <ion-item>
+             <ion-label stacked>Surname </ion-label>
+               <ion-input [(ngModel)]="surname" placeholder={{myPerson.surname}}></ion-input>
+           </ion-item>
+       
+           <ion-item>
+             <ion-label stacked>Email</ion-label>
+             <ion-input [(ngModel)]="email" placeholder={{myPerson.email}}>
+             </ion-input>
+           </ion-item>
+           
+    </ion-card>
+    <ion-footer class="fondu">
+      <ion-card class="fondu">
+    <button ion-button full color="primary" (click)="Editchange(name, surname, email)">Edit Change </button>
+    <button ion-button full color="primary">Change Password </button>
+  </ion-card>
+</ion-footer>
+  </ion-content>
