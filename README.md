@@ -1,3 +1,5 @@
+# Mobile-Hybrid-Project
+
 Voici une application qui vous permettra de sauvegarder vos carte de fidélité. 2 possibilités pour cela :
 
 1 - Scanner une carte, l'appareil photo s'ouvre et vous permet de scanner votre carte. Une fois le code lu un QRCode et généré et stocker.
@@ -76,4 +78,3 @@ La base de donné regroupant les utilisateurs et informations utilisateurs
 Les images sont stocké sur firebase 
 
 
-# Mobile-Hybrid-Project
