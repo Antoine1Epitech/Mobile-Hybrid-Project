@@ -1,16 +1,26 @@
 # Mobile-Hybrid-Project
 
+INFORMATIONS
+
+Groupe : Antoine MILLET
+Presence au cour : NON
+
 Voici une application qui vous permettra de sauvegarder vos carte de fidélité. 2 possibilités pour cela :
 
 1 - Scanner une carte, l'appareil photo s'ouvre et vous permet de scanner votre carte. Une fois le code lu un QRCode et généré et stocker.
 
 2 - Choisir une photo de votre librarie photo. 
 
+Malheuresement, je n'ai pas reussi a aller aussi loin que ce que je le souhaitais nottament du fait que je ne n'avais aucune notion de TypeScripr et ionic.
 
-INFORMATIONS
+J'ai cependant essayer de remplir au mieu la consigne en implémentant :
 
-Groupe : Antoine MILLET
-Presence au cour : NON
+- L'utilisation de Firebase en BackEnd
+- Un systeme de connection - > authent
+- L'accés aux photos (IOS) -> Stockage des photos sur firebase 
+- La prise de photo (IOS) -> Stockage des photos sur firebase 
+- La posibilité de modifier les inforation du compte 
+
 
 DOCUMENTATION UTILISATEUR 
 
