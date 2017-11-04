@@ -20,7 +20,7 @@ Si vous avez deja un compte il vous suffira de remplir les informations et de se
 
 II - Création de compte 
 
-Si vous n'avez pas encore de compte, il suffit de cliquer sur "Create a new account" et de remplir les différents champ avant de valider 
+Si vous n'avez pas encore de compte, il suffit de cliquer sur "Create a new account" et de remplir les différents champ avant de valider. Vous devrez entrer une adresse email valide et un mot de passe de 6 caractères minimum.
 
 III - Mot de passe oublier 
 
