@@ -10,6 +10,8 @@ import { AuthData } from '../providers/auth/auth';
 import { ProfilPage } from '../pages/profil/profil';
 import { CreditCardPage} from '../pages/credit-card/credit-card';
 import { Camera } from '@ionic-native/camera';
+import { ImageProvider } from '../providers/image/image';
+import { HttpModule } from '@angular/http';
 //import { LoginPage} from '../pages/login/login'
 
 @NgModule({
@@ -18,11 +20,13 @@ import { Camera } from '@ionic-native/camera';
     HomePage,
     ProfilPage,
     CreditCardPage,
+    
     //LoginPage
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    HttpModule,
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -37,7 +41,9 @@ import { Camera } from '@ionic-native/camera';
     Camera,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    AuthData
+    AuthData,
+    ImageProvider,
+    ImageProvider
   ]
 })
 export class AppModule {}

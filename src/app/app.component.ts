@@ -9,6 +9,7 @@ import { HomePage } from '../pages/home/home';
 import { CreditCardPage} from '../pages/credit-card/credit-card';
 import { IonicApp, IonicModule, Config } from 'ionic-angular';
 
+
 @Component({
   templateUrl: 'app.html'
 })
@@ -26,12 +27,12 @@ export class MyApp {
     ];
     this.activePage = this.pages[0];
     firebase.initializeApp({
-      apiKey: "AIzaSyDETPBqn7LuClsMHmoSdNwx7jCjDdDoGi0",
-      authDomain: "mobile-hybrid-project.firebaseapp.com",
-      databaseURL: "https://mobile-hybrid-project.firebaseio.com",
-      projectId: "mobile-hybrid-project",
-      storageBucket: "mobile-hybrid-project.appspot.com",
-      messagingSenderId: "62360612970"
+      apiKey: "AIzaSyAb8-rzW857xRcR9Sxsjg3peEBD3GRceUU",
+      authDomain: "mobile-project-hybride.firebaseapp.com",
+      databaseURL: "https://mobile-project-hybride.firebaseio.com",
+      projectId: "mobile-project-hybride",
+      storageBucket: "mobile-project-hybride.appspot.com",
+      messagingSenderId: "427214115845"
     });
     platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.
