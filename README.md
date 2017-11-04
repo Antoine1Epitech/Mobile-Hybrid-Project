@@ -21,6 +21,11 @@ J'ai cependant essayer de remplir au mieu la consigne en implémentant :
 - La prise de photo (IOS) -> Stockage des photos sur firebase 
 - La posibilité de modifier les inforation du compte 
 
+ACCES FIREBASE
+
+Email: firebasetestmobileproject@gmail.com
+Password : Firebase2017
+
 
 DOCUMENTATION UTILISATEUR 
 
